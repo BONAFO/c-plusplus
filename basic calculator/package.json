@@ -1,0 +1,15 @@
+{
+  "name": "asd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "build": "g++ -std=c++20 -o main.exe main.cpp",
+    "test" : ".\\main.exe",
+    "start" : "npm run build && npm run test"
+  },
+  
+  "author": "",
+  "license": "ISC"
+}
